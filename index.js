@@ -51,7 +51,57 @@ inquirer
         }
     ]).then(response => {
         console.log(response);
-    })
+        fs.appendFile("README.md",
+        `# ${response.title} 
+![License Badge](https://img.shields.io/badge/license-${response.license}-<green>)        
+## Description
+${response.description}
+        
+## Table of Content
+* [Installation](#installation)
+* [Usage](#usage)
+* [License](#license)
+* [Contributing](#contributing)
+* [Tests](#tests)
+* [Questions](#questions)
+
+## Installation
+\`\`\`
+${response.installation}
+\`\`\`
+
+## Usage
+\`\`\`
+${response.usage}
+\`\`\`
+
+## License
+\`\`\`
+${response.license}
+\`\`\`
+
+## Contributing
+\`\`\`
+${response.contribution}
+\`\`\`
+
+## Tests
+\`\`\`
+${response.test}
+\`\`\`
+
+## Questions
+
+Github: [${response.username}](http://githumb.com/${response.username})
+Submit Questions to [${response.email}](${response.email})`
+        , "utf8", function(err) {
+            if (err) {
+                console.log(err);
+            } else {
+                console.log("Your README has been created!");
+            };
+        });
+    });
 
     
 
