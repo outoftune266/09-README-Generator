@@ -1,7 +1,7 @@
-# hi 
-![License Badge](https://img.shields.io/badge/license-MIT-<green>)        
+# GIMME README 
+![License Badge](https://img.shields.io/badge/license-CC-<green>)        
 ## Description
-hi
+A simple command line applicataion javascript application that will generate a formatted README.md file based on USER input
         
 ## Table of Content
 * [Installation](#installation)
@@ -13,30 +13,27 @@ hi
 
 ## Installation
 ```
-hi
+Requires Node.js. Run "npm install" from the command line to install denpendencies
 ```
 
 ## Usage
 ```
-hi
+Use as you see fit
 ```
 
 ## License
-\`\`\`
-MIT
-\`\`\`
+This project is licensed under the Creative Commons Attribution 4.0 license.
+
+For more information about the license [Click Here](https://creativecommons.org/licenses/by/4.0/legalcode)
+
+Copyright (c) 2020 Zak Monnet
 
 ## Contributing
-```
-hi
-```
+All contributions must be appoved by owner. Contact zakmonnet@gmail.com with questions.
 
 ## Tests
-```
-hi
-```
+There are currently no testing procedures for the application
 
 ## Questions
-
-Github: [hi](http://githumb.com/hi)
-Submit Questions to [hi](hi)
+* Github: [outoftune266](http://githumb.com/outoftune266)
+* Submit Questions to [zakmonnet@gmail.com](zakmonnet@gmail.com)
