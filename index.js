@@ -95,7 +95,7 @@ Copyright (c) ${response.year} ${response.owner}`
             
 Copyright (c) ${response.year} ${response.owner}`
         }
-        fs.appendFile("GOODREADME.md",
+        fs.appendFile("GIMMEREADME.md",
             `# ${response.title} 
 ![License Badge](https://img.shields.io/badge/license-${response.license}-<green>)        
 ## Description
