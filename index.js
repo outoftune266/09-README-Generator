@@ -110,14 +110,12 @@ ${response.description}
 * [Questions](#questions)
 
 ## Installation
-\`\`\`
 ${response.installation}
-\`\`\`
+
 
 ## Usage
-\`\`\`
 ${response.usage}
-\`\`\`
+
 
 ## License
 ${licenseNotes}

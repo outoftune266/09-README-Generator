@@ -12,14 +12,18 @@ A simple command line javascript application that will generate a formatted READ
 * [Questions](#questions)
 
 ## Installation
+Requires Node.js. From the command line, run the following to install dependencies:
 ```
-Requires Node.js. Run "npm install" from the command line to install dependencies
+npm install
 ```
 
 ## Usage
+Run the following from the command line inside of the repo directory:
 ```
-With Node.js installed, run "node index.js" in the command line inside of the repo directory. User will be prompted with a series of questions about the project to generate the markdown file. Once completed the application with save the generated file as "GIMMEREADME.md"
-```
+node index.js
+``` 
+User will be prompted with a series of questions about the project to generate the markdown file. Once completed, the application with save the generated file as "GIMMEREADME.md" to allow user to add any custom formatting.
+
 
 ## License
 This project is licensed under the Creative Commons Attribution 4.0 license.
