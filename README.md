@@ -2,6 +2,9 @@
 ![License Badge](https://img.shields.io/badge/license-CC-<green>)        
 ## Description
 A simple command line javascript application that will generate a formatted README.md file based on USER input
+
+## Preview
+[Click to watch video](https://drive.google.com/file/d/1WvnX48xVhAPXnbuApd1R5PQ68xprAb_R/view)
         
 ## Table of Content
 * [Installation](#installation)
